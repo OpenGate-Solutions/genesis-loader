@@ -29,6 +29,6 @@ class GenesisLoader
 
     private function validateComposerFile($composerJson): bool
     {
-        return !!$composerJson;
+        return (bool) $composerJson;
     }
 }

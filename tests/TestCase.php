@@ -3,8 +3,8 @@
 namespace OpenGate\GenesisLoader\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use OpenGate\GenesisLoader\GenesisLoaderServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
